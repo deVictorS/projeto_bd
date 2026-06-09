@@ -1,0 +1,12 @@
+.terraform/
+infra/.terraform/
+
+*.tfstate
+*.tfstate.backup
+infra/*.tfstate
+infra/*.tfstate.backup
+
+terraform.tfvars
+infra/terraform.tfvars
+
+infra/linux_amd64/
