@@ -6,6 +6,8 @@ CREATE TABLE pagamento_pacote (
     valor DECIMAL(10,2) NOT NULL,
     data_pagamento DATETIME NOT NULL,
     metodo VARCHAR(50) NOT NULL,
+    status_pagamento VARCHAR(50) NOT NULL,
+
     FOREIGN KEY (id_reserva)
         REFERENCES reserva_pacote(id_reserva),
     FOREIGN KEY (id_cliente)

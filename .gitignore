@@ -10,3 +10,5 @@ terraform.tfvars
 infra/terraform.tfvars
 
 infra/linux_amd64/
+
+relatorio/*
